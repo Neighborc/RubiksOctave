@@ -1,1 +1,28 @@
 Layout of cube and color
+
+
+8 faces with 6 triangles per faces
+Best representation standing on truncated flat/square part 
+Bridge pieces dictate orientation not central pieces. 
+
+Colors(8): Y/Yellow, G/Green, R/Red, B/Blue, O/Orange, A/Gray, W/White, P/Purple, 
+Bridges(12): Y-A, Y-O, Y-R, O-P, O-B, R-G, G-A, R-P, G-W, A-B, B-W, P-W 
+
+Solving for layout:
+
+-X-X-X-X-             -Y-A-G-R-   Top level is "Jaeger!"
+ | | | |     -->       | | | |       
+-X-X-X-X-             -O-B-W-P-        
+
+Represented in an array 4x12 as 
+
+Y Y Y A A A G G G R R R
+Y Y Y A A A G G G R R R
+O O O B B B W W W P P P
+O O O B B B W W W P P P
+
+
+Actions:
+4 angles x 3 axes of rotation x 2 directions = 24 possible moves each turn.
+
+
