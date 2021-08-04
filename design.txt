@@ -25,4 +25,5 @@ O O O B B B W W W P P P
 Actions:
 4 angles x 3 axes of rotation x 2 directions = 24 possible moves each turn.
 
+For second actions in sequence only a few are eliminated which are either reversed or their order isn't important
 
