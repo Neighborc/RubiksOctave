@@ -8,5 +8,16 @@ X^K possible end states which increases exponentially
 
 Explore method for rapidly checking graph structure to be similar.
 Eventual profiling to work. Solve slightly shuffled cubes first.
+
+Solved cube = 
+Y Y Y A A A G G G R R R
+Y Y Y A A A G G G R R R
+O O O B B B W W W P P P
+O O O B B B W W W P P P
+
+Graph representation
 """
 
+
+def evaluate_progress(pattern):
+    pass
